@@ -4,41 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEA Nexus</title>
+    <!-- Linking our external CSS styling sheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to SEA Nexus</h1>
-        <p>A forward-thinking technology startup dedicated to turning ideas into impactful digital products and services.</p>
-    </header>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Welcome to SEA Nexus</h1>
+            <p class="subtitle">A forward-thinking technology startup dedicated to turning ideas into impactful digital products and services.</p>
+        </header>
 
-    <hr>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At SEA Nexus, we bridge the gap between complex technological challenges and elegant digital solutions. Whether it's software engineering, hardware logistics, or advanced systems design, we build with precision and purpose.</p>
+        </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At SEA Nexus, we bridge the gap between complex technological challenges and elegant digital solutions. Whether it's software engineering, hardware logistics, or advanced systems design, we build with precision and purpose.</p>
-    </section>
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Digital Product Development</h3>
+                    <p>Custom software and web solutions tailored to modern business needs.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Systems & Electronics Optimization</h3>
+                    <p>Designing and streamlining digital logic systems and technical infrastructure.</p>
+                </div>
+                <div class="service-card">
+                    <h3>IT Infrastructure & Deployment</h3>
+                    <p>Efficient asset lifecycle management and hardware coordination.</p>
+                </div>
+            </div>
+        </section>
 
-    <hr>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have an inquiry or want to collaborate? Send us a message.</p>
+            <form action="https://formspree.io/f/placeholder" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li><strong>Digital Product Development:</strong> Custom software and web solutions tailored to modern business needs.</li>
-            <li><strong>Systems & Electronics Optimization:</strong> Designing and streamlining digital logic systems and technical infrastructure.</li>
-            <li><strong>IT Infrastructure & Deployment:</strong> Efficient asset lifecycle management and hardware coordination.</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2026 SEA Nexus. All rights reserved.</p>
-    </footer>
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2026 SEA Nexus. All rights reserved.</p>
+        </footer>
+    </div>
 
 </body>
 </html>
