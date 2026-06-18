@@ -148,3 +148,13 @@ footer {
     font-size: 0.85rem;
     color: #8b949e;
 }
+.logo {
+    max-width: 120px; /* Controls the size of the badge */
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; /* Perfects the circular look */
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.2); /* Gives it a subtle tech glow */
+}
