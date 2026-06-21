@@ -158,3 +158,63 @@ footer {
     border-radius: 50%; /* Perfects the circular look */
     box-shadow: 0 0 15px rgba(88, 166, 255, 0.2); /* Gives it a subtle tech glow */
 }
+/* Why Choose Us Section Styling */
+.why-choose-us-section {
+    padding: 80px 20px;
+    background-color: #0f172a; /* Dark tech slate background */
+    color: #ffffff;
+    text-align: center;
+}
+
+.why-choose-us-section .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.why-choose-us-section .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #38bdf8; /* Vibrant tech blue accent */
+}
+
+.why-choose-us-section .section-subtitle {
+    font-size: 1.1rem;
+    color: #94a3b8;
+    margin-bottom: 50px;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.benefit-card {
+    background: #1e293b; /* Slightly lighter slate for contrast */
+    padding: 40px 30px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.benefit-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #f8fafc;
+}
+
+.benefit-card p {
+    font-size: 1rem;
+    color: #94a3b8;
+    line-height: 1.6;
+}
