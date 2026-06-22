@@ -263,3 +263,29 @@ footer {
     font-size: 0.85rem;
     color: #475569;
 }
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    /* Stack navigation links vertically on small screens */
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* Change columns from side-by-side to a single vertical stack */
+    .services-grid, 
+    .why-choose-grid { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Adjust font sizes so headers aren't overwhelmingly large on phones */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+}
